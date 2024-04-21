@@ -1,0 +1,101 @@
+header{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header p{
+    color: #433c02;
+    margin: 0px;
+    padding: 70px 10px 10px 12px;
+    background-color: #ff8fee;
+    text-align:center;
+    border-radius: 10%;
+}
+
+#menu{
+    background-color: #ffd8f7;
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    left: 0;
+    top: 60px; 
+}
+#menu a{
+    text-decoration: none; 
+}
+#page2{
+    background-image: url(imagens/fundocolorido.jpg);
+    background-repeat: no-repeat;  /* se quiser que a imagem não se repita */
+    background-attachment: fixed; /* para garantir que todo o elemento esteja sempre coberto */
+    background-size: cover; /* Se quiser que a imagem de fundo cubra todo o elemento */
+}
+
+header h1{
+    color: #433c02;
+    background-color: #FAE20C;
+    background-image: url(imagens/fundocolorido.jpg);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 12px;
+    border-bottom-left-radius:10px ;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+body{
+    background-color: #ffb3f0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 220px;
+}
+
+hr{
+    border-color: #ff61ed;
+    border-width: 1px;
+    margin-top: 50px;
+    width: 100%;
+    margin-left: 0px;
+}
+
+img{
+    margin: 5px;
+    width: 400px;
+    right: 180px;
+    border: 1px solid #000000;
+    border-radius: 14px;
+
+}
+
+h1{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+h3{
+    margin-left: 10px;
+}
+
+p, pre, address, h4, img{
+    margin-left: 20px;
+}
+
+.divisa{
+    border: 1px solid #ff61ed;
+    border-radius: 10px;
+    padding: 12px 12px;
+    margin-left: 12px;
+}
+
+
+table{
+    margin-bottom: 12px;
+}
+
+/* th, td {
+    /* border: 3px solid rgb(31, 7, 243); */
+    /* border-collapse: collapse; */ /* Serve para deixar as bordas da tabela estreitas */
+    /* border-radius: 10px; 
+} */  
+th, td{
+    background-color: aquamarine;
+}
