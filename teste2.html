@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exibir Código HTML</title>
+</head>
+<body>
+    <h1>Exemplo de Exibir Código HTML</h1>
+
+    <!-- Área onde o código HTML será exibido -->
+    <div id="codigo-html"></div>
+
+    <!-- Elemento na página que você deseja capturar o HTML -->
+    <div id="elemento-alvo">
+        <p>Este é o conteúdo que será exibido na janela.</p>
+        <button onclick="exibirCodigo()">Exibir Código HTML</button>
+    </div>
+
+    <script>
+        function exibirCodigo() {
+            // Selecione o elemento que deseja capturar
+            const elemento = document.getElementById('elemento-alvo');
+
+            // Obtenha o HTML do elemento
+            const codigoHTML = elemento.innerHTML;
+
+            // Exiba o código HTML em uma área específica da página
+            const areaCodigo = document.getElementById('codigo-html');
+            areaCodigo.textContent = codigoHTML;
+}
+
+    </script>
+</body>
+</html>

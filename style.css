@@ -11,7 +11,7 @@ header p{
 }
 
 #menu{
-    background-color: #ffd8f7;
+    background-color: #ffd8f7bc;
     position: fixed;
     width: 200px;
     height: 100%;
@@ -97,5 +97,12 @@ table{
     /* border-radius: 10px; 
 } */  
 th, td{
+    border: 1px solid aquamarine;
+}
+td:nth-child(even), th:nth-child(even){
     background-color: aquamarine;
+    border-bottom: 1px solid #000000;
+}
+tr:hover{
+    background-color: #D6EEEE;
 }

@@ -326,6 +326,137 @@
                 tfoot->	Groups the footer content in a table
             </pre>
 
+            <h3>Largura da tabela</h3>
+
+            <table style="width: 100%;">
+                <tr>
+                    <th style="width: 70%;">primeironome</th>
+                    <th>ultimo nome</th>
+                    <th>idade</th>
+                </tr>
+                <tr>
+                    <td style="height: 200px;">joao</td>
+                    <td>predo</td>
+                    <td>3000</td>
+                </tr>
+            </table>
+
+            <h3>Cabeçalhos de tabela</h3>
+
+            <!-- Para usar a primeira coluna como cabeçalho de tabela, defina a primeira célula de cada linha como um <th>elemento: -->
+            <table>
+                <tr>
+                    <caption>Teste de cabeçalho lateral</caption>
+                    <th>cabeça 1</th>
+                    <td style="text-align: left;">chama</td>
+                    <td>no gral</td>
+                </tr>
+                <tr>
+                    <th>cabeça 2</th>
+                    <td>cha2</td>
+                    <td>no gril</td>
+                </tr>
+            </table>
+
+            <table>
+                <caption>Teste de um cabeçalho pra duas colunas</caption>
+                <tr>
+                    <th colspan="2">nome</th>
+                    <th>idade</th>
+                </tr>
+                <tr>
+                    <td>joao</td>
+                    <td>predo</td>
+                    <td>3000</td>
+                </tr>
+            </table>
+
+            <table>
+                <caption>Teste de juntar duas linhas</caption>
+                <tr>
+                    <th>nome</th>
+                    <td>sobrenome</td>
+                    <td>idade</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">joao</th>
+                    <td>predo</td>
+                    <td>3000</td>
+                </tr>
+                <tr>
+                    <td>predo</td>
+                    <td>3000</td>
+                </tr>
+            </table>
+
+            <h3>Espaçamento e legenda de tabela</h3>
+
+            <table>
+                <caption>Teste de legenda para a tabela</caption>
+                <tr>
+                    <th>primeironome</th>
+                    <th>ultimo nome</th>
+                    <th>idade</th>
+                </tr>
+                <tr>
+                    <td>joao</td>
+                    <td>predo</td>
+                    <td>3000</td>
+                </tr>
+            </table>
+
+            <table style="border-spacing: 30px;">
+                <caption>Teste de espaçamento</caption>
+                <tr>
+                    <th style="padding: 10px;">primeironome</th>
+                    <th>ultimo nome</th>
+                    <th>idade</th>
+                </tr>
+                <tr>
+                    <td>joao</td>
+                    <td>predo</td>
+                    <td>3000</td>
+                </tr>
+            </table>
+
+            <table>
+                <colgroup>
+                    <col span="1" style="background-color: rgb(71, 69, 69);">
+                </colgroup>
+                <tr>
+                    <th>primeironome</th>
+                    <th>ultimo nome</th>
+                    <th>idade</th>
+                    <th>primeironome</th>
+                    <th>ultimo nome</th>
+                    <th>idade</th>
+                </tr>
+                <tr>
+                    <td>joao</td>
+                    <td>predo</td>
+                    <td>3000</td>
+                    <td>joao</td>
+                    <td>predo</td>
+                    <td>3000</td>
+                </tr>
+                <tr>
+                    <td>primeironome</td>
+                    <td>ultimo nome</td>
+                    <td>idade</td>
+                    <td>primeironome</td>
+                    <td>ultimo nome</td>
+                    <td>idade</td>
+                </tr>
+                <tr>
+                    <td>joao</td>
+                    <td>predo</td>
+                    <td>3000</td>
+                    <td>joao</td>
+                    <td>predo</td>
+                    <td>3000</td>
+                </tr>
+            </table>
+
 
         </div>
 
